@@ -38,5 +38,5 @@ function span($beginHeight, $endHeight) {
 	}
 	$sortSum['More than 720'] = $more;
 
-	drawChart($sortSum, 'The time span summary of blocks from block '.$beginHeight. ' to '.$endHeight.' of QTUM', 'Avarage Span is '.round($totalSpan/$totalCount, 2).' sec', 'sec', 'block(s)');
+	drawChart($sortSum, 'The time span summary of blocks from block '.$beginHeight. ' to '.$endHeight.' of RECRYPT', 'Avarage Span is '.round($totalSpan/$totalCount, 2).' sec', 'sec', 'block(s)');
 }

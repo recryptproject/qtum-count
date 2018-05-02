@@ -1,5 +1,5 @@
 <?php
-define('DB', 'qtum');
+define('DB', 'recrypt');
 
 function getManager() {
 	static $m;

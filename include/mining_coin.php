@@ -63,5 +63,5 @@ function miningCoin($beginHeight, $endHeight) {
 	ksort($sum, SORT_NUMERIC);
 	printf("\r");
 
-	drawChart($sum, 'The coin\'s amount of tx which mined a block from block '.$beginHeight. ' to '.$endHeight.' of QTUM', sprintf("Avarage Coin is %s QTUMs\nThe maximum amount is %s on %s\nThe minimum amount is %s on %s", round($totalCoin/$totalCount, 2), $maxIn['amount'], $maxIn['height'], $minIn['amount'], $minIn['height']), 'QTUMs', 'block(s)');
+	drawChart($sum, 'The coin\'s amount of tx which mined a block from block '.$beginHeight. ' to '.$endHeight.' of RECRYPT', sprintf("Avarage Coin is %s RECRYPTs\nThe maximum amount is %s on %s\nThe minimum amount is %s on %s", round($totalCoin/$totalCount, 2), $maxIn['amount'], $maxIn['height'], $minIn['amount'], $minIn['height']), 'RECRYPTs', 'block(s)');
 }

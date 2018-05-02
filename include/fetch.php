@@ -2,8 +2,8 @@
 require_once(__DIR__.'/header.php');
 
 function req($method, $params) {
-	//curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "importwallet", "params": ["test"] }' -H 'content-type: text/plain;' http://127.0.0.1:3889/
-	$url = QTUM_URL;
+	//curl --user myusername --data-binary '{"jsonrpc": "1.0", "id":"curltest", "method": "importwallet", "params": ["test"] }' -H 'content-type: text/plain;' http://127.0.0.1:8489/
+	$url = RECRYPT_URL;
 	$data = [
 		'jsonrpc' => '1.0',
 		'id' => uniqid(),

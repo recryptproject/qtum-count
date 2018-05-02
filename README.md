@@ -1,7 +1,7 @@
-# qtum-count
-A cli tool to count qtum block info
+# recrypt-count
+A cli tool to count recrypt block info
 
-This tool need a qtumd node and a mongodb
+This tool need a recryptd node and a mongodb
 The config can be modified at config.php
 
 ## Usage:
